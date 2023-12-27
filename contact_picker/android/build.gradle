@@ -25,7 +25,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 32
-    kotlin {
+    kotlinOptions {
         jvmToolchain(17)
     }
 
