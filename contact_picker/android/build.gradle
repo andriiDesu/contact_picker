@@ -27,9 +27,6 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 32
     namespace 'com.example.fluttercontactpicker'
-    // kotlinOptions {
-    //     jvmToolchain(17)
-    // }
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
